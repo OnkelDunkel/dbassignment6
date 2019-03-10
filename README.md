@@ -13,7 +13,7 @@
 
 ### The execution plan
 
-![Query execution plan](ex1 - query execution plan.png)
+![Query execution plan](https://raw.githubusercontent.com/OnkelDunkel/dbassignment6/master/ex1%20-%20query%20execution%20plan.png)
 
 ### Performance problem
 
