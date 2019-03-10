@@ -13,6 +13,8 @@
 
 ### The execution plan
 
+![Query execution plan](ex1 - query execution plan.png)
+
 ### Performance problem
 
 ## Ex 2
