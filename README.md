@@ -4,6 +4,13 @@
 
 ### The query
 
+	USE classicmodels;
+	SELECT cu.customerNumber, cu.customerName, cu.city, off.city
+	FROM customers AS cu
+	JOIN employees AS em ON cu.salesRepEmployeeNumber=em.employeeNumber
+	JOIN offices AS off ON off.officeCode = em.officeCode
+	WHERE cu.city = off.city;
+
 ### The execution plan
 
 ### Performance problem
